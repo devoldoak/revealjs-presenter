@@ -2,7 +2,7 @@ version: '2'
 services:
     presenter:
         build: .
-        image: "revealjs-presenter"
+        image: dkrpigeyre/revealjs-presenter
         ports:
         - "80:80"    
         environment:
