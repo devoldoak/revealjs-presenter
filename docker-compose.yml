@@ -1,0 +1,9 @@
+version: '2'
+services:
+    presenter:
+        build: .
+        image: "revealjs-presenter"
+        ports:
+        - "80:80"    
+        environment:
+        - MASTERPASSWORD=yourmasterpassword
