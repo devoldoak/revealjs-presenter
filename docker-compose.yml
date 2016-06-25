@@ -5,5 +5,3 @@ services:
         image: dkrpigeyre/revealjs-presenter
         ports:
         - "80:80"    
-        environment:
-        - MASTERPASSWORD=yourmasterpassword
